@@ -149,6 +149,11 @@ body {
 }
 /** TRENDING SECTION WITH SLIDESHOW **/
 
+.carouselHead {
+  text-align: center;
+  font-size: 100px;
+}
+
 #trending {
   height: 100px;
   margin: 0px 75px 400px 75px;

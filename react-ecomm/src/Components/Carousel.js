@@ -9,6 +9,7 @@ import img4 from '../Assets/Accessories/glasses_4.jpg';
 function FreshCarousel () {
   return (
   <div>
+    <h2 className="carouselHead">Trending Now</h2>
   <Carousel>
   <Carousel.Item>
     <img
@@ -53,7 +54,7 @@ function FreshCarousel () {
     />
 
     <Carousel.Caption>
-      <h3>Fourth slide label</h3>
+      <h3>Fourth slide label</h3> 
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
