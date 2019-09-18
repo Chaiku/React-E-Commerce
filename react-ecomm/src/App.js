@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import Carousel from './Components/Carousel.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import FreshCarousel from './Components/Carousel.js';
 
 
 
@@ -68,8 +69,8 @@ function App() {
                 <span id="rightTrend">TRENDING NOW</span>
             </div>
           </div>
-
-          <Carousel />
+          
+          <FreshCarousel />
 
           <div className="floatBorder"></div>
 
